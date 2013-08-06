@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:paddingTop="8dp"
+              android:paddingBottom="8dp">
+
+    <ImageView
+            android:id="@+id/image"
+            android:contentDescription="@string/icon_image_ally"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    <TextView
+            android:id="@+id/package_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textSize="16dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    <CheckBox
+            android:id="@+id/is_whitelisted"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:layout_alignEnd="@+id/package_name"
+            android:layout_alignBottom="@+id/package_name"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

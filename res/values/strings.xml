@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google Glass Notifier</string>
+    <string name="notification_listener_service_label">Google Glass Notifier</string>
+    <string name="notification_listener_service_details">Intercepts notifications and forwards them to Google Glass.</string>
+    <string name="notification_service_label">The service that notifies to Google Glass.</string>
+    <string name="notification_test_label">Test Glass Notifier</string>
+    <string name="whitelist_setup_label">Setup Whitelist </string>
+    <string name="whitelist_label">Select Application Whitelist</string>
+    <string name="icon_image_ally">Icon image</string>
+</resources>
