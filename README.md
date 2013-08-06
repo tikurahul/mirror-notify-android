@@ -12,3 +12,15 @@ An Android application that forwards notifications to Google Glass via [service]
 * Whitelist applications whose notifications you want to forward by clicking the __Setup Whitelist__ button.
 * Click on the __Test Glass Notifier__ button.
 * Your Android notification should have been forwarded to Google Glass.
+
+# Step by step screenshots
+
+![OAuth](https://raw.github.com/tikurahul/mirror-notify-android/master/images/oauth.png "Basic OAuth Step")
+
+![Enable Glass Notifier Service](https://raw.github.com/tikurahul/mirror-notify-android/master/images/setup-two.png "Enable Glass Notifier Service")
+
+![Quick Test](https://raw.github.com/tikurahul/mirror-notify-android/master/images/quick-test.png "Quick Test")
+
+![Notification on Google Glass](https://raw.github.com/tikurahul/mirror-notify-android/master/images/test-success.png "Notification on Google Glass")
+
+![Setting up a whitelist](https://raw.github.com/tikurahul/mirror-notify-android/master/images/whitelist.png "Setting up a whitelist")
